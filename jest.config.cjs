@@ -18,7 +18,6 @@ const customJestConfig = {
   },
   moduleDirectories: ["node_modules", "src"],
   transformIgnorePatterns: ["/node_modules/(?!remark-gfm).+\\.js$"],
-  setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
   testPathIgnorePatterns: [
     "<rootDir>/.next/",
     "<rootDir>/node_modules/",
